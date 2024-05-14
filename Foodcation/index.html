@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Foodcation</title>
+</head>
+<body>
+  <!--===========Nav Bar=================-->
+<header>
+  <section id="nav-bar" class="nav-bar">
+    <h2 class="logo" id="logo"><a href="./">Foodcation</a></h2>
+      <nav>
+    <ul class="menu">
+        <li><a href="#">home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">contact</a></li>
+    </ul>
+  </nav>
+</section>
+</header>
+<!--===============Hero Content================-->
+<main>
+	<section class="hero">
+    <div class="hero-text-item">
+        <div id=hero-heading" class="hero-heading">
+            <h1 id="h1">Feast and Explore!</h1>
+        </div>
+        
+  <form name="form" method="post">
+  <div class="select">
+    <select id="location" name="location" class="location">
+       <option value="x" selected disabled>Choose a location</option>
+       <option value="Tokyo">Tokyo, Japan</option>
+       <option value="Toronto">Toronto, Ontario</option>
+    </select>
+ </div>
+ <div id="button">
+  <button type="submit" value="submit" id="submit">Start Exploring</button>
+</div>
+</form>
+</section>
+<!--===============Filtered Itinerary & Planner================-->
+
+		<section id="places" class="places">
+			<div id="planner-content" class="planner-content">
+				<div class="planner-box">
+				  <div class="title"><p>Food Itinerary</p></div>
+				  <div class="planner-list"></div>
+				</div>
+			  </div>
+			<div class="wrapper">
+				<div class="filtering-menu-wrapper">
+					<div class="filtering-categories"></div>
+					<div class="filtering-content">
+					  <div class="product-card"></div>
+							<h4 class="title">Title</h4>
+							<p class="operating_hours">12:00p.m - 12:00a.m</p>
+							<h3 class="address">123 Address St.</h3>
+              <img src="images/Hitotoki_Bakery.webp" alt="" />
+
+					</div>
+				</div>
+			</div>
+		</section>
+		</main>
+
+<footer>
+  <div class="footer">
+    <p>&copy; Thurston Tran - April 2024</p>
+</div>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
